@@ -60,13 +60,23 @@ const About = ({client_data}:{client_data:TClientData}) => {
             <h2 className="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-6">
               About <span className="text-event-purple">{client_data.logo_alt}</span>
             </h2>
-            <div className="w-20 h-1 bg-event-gold mb-8"></div>
-            <p className="text-gray-600 mb-6">
-              {client_data.logo_alt} is a premier bridal makeup and hair studio dedicated to making your special day unforgettable. With over 12 years of experience, we are renowned for our artistry, attention to detail, and flawless execution.
+            <div className="w-20 h-1 bg-event-gold mb-4"></div>
+            <p className="text-gray-600 mb-3">
+              At {client_data.logo_alt} we believe every bride deserves to feel timeless, confident, and radiant on her special day. Founded by beauty professional Monaè, our brand specializes in luxury bridal hairstyling and flawless makeup artistry designed to enhance your natural beauty while reflecting your unique style.
+            </p>
+            <p className="text-gray-600 mb-2">
+              With a passion for elegance and an eye for detail, Monaè creates looks that photograph beautifully and last from “I do” to the last dance. Whether you’re dreaming of a soft, romantic glow or a glamorous red-carpet finish, Classy Monaè Beauty provides a personalized beauty experience that leaves you feeling confident and breathtaking.
+            </p>
+            <p className="text-gray-600 mb-2">
+              From the trial session to the wedding day, our goal is to ensure a calm, seamless, and enjoyable beauty experience—because your wedding day should be as flawless as your look.
+            </p>
+            <p className="text-gray-600 mb-2">
+              ✨ Specialties: Bridal hair & makeup, bridesmaid glam, engagement sessions, and special events.
             </p>
             <p className="text-gray-600 mb-8">
-              Our team of passionate beauty professionals works tirelessly to bring your bridal vision to life. From intimate weddings to grand celebrations, we ensure every detail of your makeup and hair is perfect, leaving you radiant and confident on your big day.
+              Let Classy Monaè Beauty help you look and feel your most beautiful self—classy, confident, and unforgettable.
             </p>
+            
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-10">
               {stats.map((stat) => (
@@ -80,9 +90,9 @@ const About = ({client_data}:{client_data:TClientData}) => {
               ))}
             </div>
 
-            <Button className="bg-event-purple hover:bg-event-purple-dark text-white">
+            {/* <Button className="bg-event-purple hover:bg-event-purple-dark text-white">
               Meet Our Team
-            </Button>
+            </Button> */}
           </div>
         </div>
       </div>

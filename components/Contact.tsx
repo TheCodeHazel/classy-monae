@@ -116,7 +116,7 @@ const Contact = ({client_data}:{client_data:TClientData} ) => {
                 </div>
                 <div>
                   <label htmlFor="eventType" className="block text-sm font-medium text-gray-700 mb-1">
-                    Event Type
+                    Service Type
                   </label>
                   <select
                     id="eventType"
@@ -126,10 +126,10 @@ const Contact = ({client_data}:{client_data:TClientData} ) => {
                     className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2"
                   >
                     <option value="" disabled>Select Event Type</option>
-                    <option value="wedding">Wedding</option>
-                    <option value="corporate">Corporate Event</option>
-                    <option value="social">Social Gathering</option>
-                    <option value="nonprofit">Non-Profit Event</option>
+                    <option value="wedding">Hairstyling</option>
+                    <option value="corporate">Full glam</option>
+                    <option value="social">Bridal makeup</option>
+                    <option value="nonprofit">Bridal Hair consultation</option>
                     <option value="other">Other</option>
                   </select>
                 </div>
@@ -199,8 +199,8 @@ const Contact = ({client_data}:{client_data:TClientData} ) => {
                   <div>
                     <h4 className="font-medium">Business Hours</h4>
                     <p className="text-white text-opacity-80">
-                      Monday - Friday: 9:00 AM - 6:00 PM<br />
-                      Saturday: 10:00 AM - 2:00 PM
+                      Monday - Saturday: 6:00 AM - 10:00 PM<br />
+                      Sunday: 6:00 AM - 10:00 PM
                     </p>
                   </div>
                 </div>
