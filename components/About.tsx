@@ -40,14 +40,14 @@ const About = ({client_data}:{client_data:TClientData}) => {
           <div className="relative">
             <div className="aspect-[4/3] overflow-hidden rounded-lg shadow-xl">
               <img
-                src="https://images.unsplash.com/photo-1551818255-e6e10975bc17?q=80&w=1973&auto=format&fit=crop"
+                src="/images/520fdba2-c806-4143-b618-728d8492dec8.jpeg"
                 alt="Event planning team"
                 className="w-full h-full object-cover"
               />
             </div>
             <div className="absolute -bottom-6 -right-6 w-1/2 aspect-square bg-event-purple-light p-6 rounded-lg shadow-lg">
               <p className="text-event-purple font-serif font-bold text-3xl">
-                12+
+                6+
               </p>
               <p className="text-gray-800 font-medium">
                 Years of Excellence

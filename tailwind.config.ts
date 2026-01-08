@@ -66,9 +66,9 @@ export default {
 				},
 				event: {
 					purple: {
-						DEFAULT: '#5F2EEA',
+						DEFAULT: '#AE816A',
 						light: '#F2EAFB',
-						dark: '#4E13C0'
+						dark: '#AE816A'
 					},
 					gold: '#FFD700'
 				}

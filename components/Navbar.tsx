@@ -34,7 +34,7 @@ const Navbar = ({client_data}:{client_data:TClientData}) => {
         <a href="#" className={`text-2xl md:text-3xl font-serif font-bold ${isSticky ? 'text-event-purple' : 'text-white text-shadow'}`}>
           {client_data.logo_alt}
         </a>
-
+{/* <Image height={60} width={70}  src={client_data.logo} alt={client_data.logo_alt} className={`text-2xl md:text-3xl absolute scale-[1.25] font-serif font-bold ${isSticky ? 'text-event-purple' : 'text-white text-shadow'}`}/> */}
         {/* Mobile menu button */}
         <button 
           className="md:hidden p-2"

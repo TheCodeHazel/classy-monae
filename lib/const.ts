@@ -5,7 +5,7 @@ export const client_data :TClientData= {
     title: 'Classy Monaè Beauty | Bridal Makeup & Hair',
     description:'Classy Monaè Beauty offers luxury bridal makeup and professional hair styling for weddings, engagements, and special events. Book your flawless bridal look today.' ,
     business_name:'Classy Monaè Beauty' ,
-    logo: '/logo/logo.png',
+    logo: '/logo.png',
     logo_alt: 'Classy Monaè Beauty',
     address1:'123 Event Boulevard, Suite 400' ,
     address2: 'San Francisco, TX 94107',
