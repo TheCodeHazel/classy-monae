@@ -56,11 +56,11 @@ const Footer = ({client_data}:{client_data:TClientData} ) => {
           <div>
             <h3 className="text-lg font-semibold mb-6">Our Services</h3>
             <ul className="space-y-4">
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Corporate Events</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Weddings</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Social Gatherings</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Holiday Parties</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Non-Profit Events</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Bridal Makeup</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Hairstyling</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Prom Makeup</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Let's Elope</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Consultation</a></li>
             </ul>
           </div>
 

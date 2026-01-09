@@ -28,14 +28,15 @@ const Navbar = ({client_data}:{client_data:TClientData}) => {
       className={`w-full fixed top-0 left-0 z-50 transition-all duration-300 ${
         isSticky
           ? "bg-white shadow-md py-2"
-          : "bg-transparent py-4"
+          : "bg-transparent py-4 "
       }`}
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         {/* <a href="#" className={`text-2xl md:text-3xl font-serif font-bold ${isSticky ? 'text-event-purple' : 'text-white text-shadow'}`}>
           {client_data.logo_alt}
         </a> */}
-<Image height={60} width={170}  src={client_data.logo} alt={client_data.logo_alt} className={`text-2xl md:text-3xl    font-serif font-bold ${isSticky ? 'text-event-purple' : 'text-white text-shadow'}`}/>
+<Image height={60} width={170}  src={client_data.logo} alt={client_data.logo_alt}
+ className={`text-2xl md:text-3xl    font-serif font-bold ${isSticky ? 'text-event-purple' : 'text-white text-shadow  filter brightness-0 invert'}`}/>
         {/* Mobile menu button */}
         <button 
           className="md:hidden p-2"

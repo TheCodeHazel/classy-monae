@@ -7,19 +7,19 @@ import { TClientData } from "@/lib/clients";
 const stats = [
   { 
     id: 1, 
-    value: "1,000+", 
+    value: "200+", 
     label: "Bridal Looks Created", 
     icon: <Calendar className="h-6 w-6 text-event-purple" /> 
   },
   { 
     id: 2, 
-    value: "8,000+", 
-    label: "Happy Brides", 
+    value: "1,500+", 
+    label: "Happy Clients", 
     icon: <Users className="h-6 w-6 text-event-purple" /> 
   },
   { 
     id: 3, 
-    value: "12", 
+    value: "6+", 
     label: "Years of Expertise", 
     icon: <Award className="h-6 w-6 text-event-purple" /> 
   },
