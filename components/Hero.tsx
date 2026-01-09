@@ -2,6 +2,7 @@
 import React from "react";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -26,13 +27,13 @@ const Hero = () => {
             From intimate weddings to grand celebrations, Classy Monaè Beauty brings your bridal vision to life with flawless makeup, perfect hair, and meticulous attention to every detail.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button className="bg-event-purple hover:bg-event-purple-dark text-white px-8 py-6 text-lg">
+            <Link href={'/#services'} className="bg-event-purple hover:bg-event-purple-dark text-white px-8 py-3 hover:bg-white hover:text-event-purple text-lg">
               Explore Our Services
-            </Button>
-            <Button variant="outline" className="text-white  bg-event-purple hover:bg-white hover:text-event-purple px-8 py-6 text-lg">
+            </Link>
+            <Link href={'/#testimonials'} className="text-white flex gap-2 items-center  bg-event-purple hover:bg-white hover:text-event-purple px-8 py-3 text-lg">
               <span>View Work</span>
               <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
+            </Link>
           </div>
         </div>
       </div>

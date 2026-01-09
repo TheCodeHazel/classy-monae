@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu } from "lucide-react";
 import { TClientData } from "@/lib/clients";
+import Image from "next/image";
 
 const Navbar = ({client_data}:{client_data:TClientData}) => {
   const [isSticky, setIsSticky] = useState(false);
@@ -31,10 +32,10 @@ const Navbar = ({client_data}:{client_data:TClientData}) => {
       }`}
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
-        <a href="#" className={`text-2xl md:text-3xl font-serif font-bold ${isSticky ? 'text-event-purple' : 'text-white text-shadow'}`}>
+        {/* <a href="#" className={`text-2xl md:text-3xl font-serif font-bold ${isSticky ? 'text-event-purple' : 'text-white text-shadow'}`}>
           {client_data.logo_alt}
-        </a>
-{/* <Image height={60} width={70}  src={client_data.logo} alt={client_data.logo_alt} className={`text-2xl md:text-3xl absolute scale-[1.25] font-serif font-bold ${isSticky ? 'text-event-purple' : 'text-white text-shadow'}`}/> */}
+        </a> */}
+<Image height={60} width={170}  src={client_data.logo} alt={client_data.logo_alt} className={`text-2xl md:text-3xl    font-serif font-bold ${isSticky ? 'text-event-purple' : 'text-white text-shadow'}`}/>
         {/* Mobile menu button */}
         <button 
           className="md:hidden p-2"

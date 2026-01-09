@@ -11,8 +11,12 @@ export const client_data :TClientData= {
     address2: 'Plano, TX 75023',
     phone: '214-957-5407', 
     email: ['info@classymonae.beauty'],
-    google_map: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBIEEGkNdpf4RtK9sVs6ckeHaJD67EZmCM&q=West%20Parker%20Road%2C%20Plano%2C%20TX%2C%20USA%20Texas&center=33.0414912,-96.74969089999999&zoom=15',
+    // google_map: 'https://www.google.com/maps/embed/v1/place?key=AIzaSyBIEEGkNdpf4RtK9sVs6ckeHaJD67EZmCM&q=West%20Parker%20Road%2C%20Plano%2C%20TX%2C%20USA%20Texas&center=33.0414912,-96.74969089999999&zoom=15',
+    google_map: 'https://www.google.com/maps?q=West+Parker+Road,+Plano,+TX,+USA&output=embed',
     type: 'event_planer', //event planer, printer ....
 
 } 
+
+
+
 

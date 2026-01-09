@@ -10,11 +10,14 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import { TClientData } from "@/lib/clients";
 import { client_data } from "@/lib/const";
+import { ServiceProvider } from "./hooks/useServices";
+import Link from "next/link";
 
  
 const HomePage = () => {
 
   return (
+     <ServiceProvider>
     <div className="min-h-screen">
       <Navbar client_data={client_data} />
       <Hero />
@@ -28,12 +31,12 @@ const HomePage = () => {
             <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-8">
               From flawless makeup to stunning hair, we craft your dream bridal style so you shine on your special day.
             </p>
-            <a 
+            <Link 
               href="#contact" 
               className="inline-block bg-event-purple hover:bg-event-purple-dark text-white font-medium px-8 py-3 rounded-md transition-colors"
             >
               Book Now
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -43,6 +46,7 @@ const HomePage = () => {
       <Contact client_data={client_data} />
       <Footer client_data={client_data}  />
     </div>
+    </ServiceProvider>
   );
 };
 

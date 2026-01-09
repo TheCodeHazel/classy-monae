@@ -14,8 +14,11 @@ import {
 // import { useToast } from "@/hooks/use-toast";
 import { TClientData } from "@/lib/clients";
 import { useToast } from "./hooks/use-toast";
+import { flatServices, servicesData } from "@/lib/service";
+import { useService } from "./hooks/useServices";
 
 const Contact = ({client_data}:{client_data:TClientData} ) => {
+  const { service, setService } = useService()
   const { toast } = useToast();
   const [formState, setFormState] = useState({
     name: "",
@@ -115,7 +118,35 @@ const Contact = ({client_data}:{client_data:TClientData} ) => {
                   />
                 </div>
                 <div>
-                  <label htmlFor="eventType" className="block text-sm font-medium text-gray-700 mb-1">
+                   <label className="block text-sm font-medium text-gray-700 mb-1">
+        Service Type
+      </label>
+
+      <select
+        value={service?.id ?? ""}
+        onChange={(e) => {
+          const selected = flatServices.find(
+            s => s.id === Number(e.target.value)
+          )
+          setService(selected ?? null)
+        }}
+        className="w-full rounded-md border border-input px-3 py-2 text-sm focus:ring-2"
+      >
+        <option value="" disabled>
+          Select Service
+        </option>
+
+        {servicesData.map(group => (
+          <optgroup key={group.category} label={group.category}>
+            {group.services.map(service => (
+              <option key={service.id} value={service.id}>
+                {service.title}
+              </option>
+            ))}
+          </optgroup>
+        ))}
+      </select>
+                  {/* <label htmlFor="eventType" className="block text-sm font-medium text-gray-700 mb-1">
                     Service Type
                   </label>
                   <select
@@ -131,7 +162,7 @@ const Contact = ({client_data}:{client_data:TClientData} ) => {
                     <option value="social">Bridal makeup</option>
                     <option value="nonprofit">Bridal Hair consultation</option>
                     <option value="other">Other</option>
-                  </select>
+                  </select> */}
                 </div>
               </div>
               <div>

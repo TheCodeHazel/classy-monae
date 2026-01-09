@@ -8,41 +8,80 @@ const categories = ["All", "Bridal Makeup", "Bridal Hair", "Pre-Wedding Trials"]
 const portfolioItems = [
   {
     id: 1,
-    title: "Elegant Garden Wedding",
-    category: "Bridal Makeup",
+    title: "Bridal Makeup",
+    category: "Bridal Services",
     image: "/images/1e4e0ced-be58-4b96-a864-b7196d8ae18b.jpeg",
   },
   {
     id: 2,
-    title: "Annual Tech Conference",
-    category: "Pre-Wedding Trials",
+    title: "Bridal Makeup Consultation",
+    category: "Bridal Consultations",
     image: "/images/2bf49efd-56b0-4bc7-9dab-cb9ec1803301.jpeg",
   },
   {
     id: 3,
-    title: "Charity Gala Dinner",
-    category: "Bridal Hair",
+    title: "Hairstyling",
+    category: "Individual Services",
     image: "/images/7e144b46-53a3-42da-82c6-84ed5242b573.jpeg",
   },
   {
     id: 4,
-    title: "50th Birthday Celebration",
-    category: "Bridal Makeup",
+    title: "Bridal Airbrush Makeup",
+    category: "Bridal Services",
     image: "/images/9e80b4e3-5f3c-49a7-9421-42499fa4a8c9.jpeg",
   },
   {
     id: 5,
-    title: "Beach Wedding",
-    category: "Bridal Makeup",
+    title: "Bride Hair and Makeup",
+    category: "Bridal Services",
     image: "/images/5496ba45-9916-4103-b914-a2e12336257d.jpeg",
   },
   {
     id: 6,
-    title: "Product Launch Event",
-    category: "Bridal Hair",
+    title: "Bridal Hair Consultation",
+    category: "Bridal Consultations",
     image: "/images/c57b818b-d436-40b0-b509-07afc8e97b64.jpeg",
   },
 ];
+
+// const portfolioItems = [
+//   {
+//     id: 1,
+//     title: "Bridal Makeup",
+//     category: "Bridal Makeup",
+//     image: "/images/1e4e0ced-be58-4b96-a864-b7196d8ae18b.jpeg",
+//   },
+//   {
+//     id: 2,
+//     title: "Modal Makeup",
+//     category: "Pre-Wedding Trials",
+//     image: "/images/2bf49efd-56b0-4bc7-9dab-cb9ec1803301.jpeg",
+//   },
+//   {
+//     id: 3,
+//     title: "Hair Styling",
+//     category: "Bridal Hair",
+//     image: "/images/7e144b46-53a3-42da-82c6-84ed5242b573.jpeg",
+//   },
+//   {
+//     id: 4,
+//     title: "Bridal Makeup",
+//     category: "Bridal Makeup",
+//     image: "/images/9e80b4e3-5f3c-49a7-9421-42499fa4a8c9.jpeg",
+//   },
+//   {
+//     id: 5,
+//     title: "Wedding Services",
+//     category: "Bridal Makeup",
+//     image: "/images/5496ba45-9916-4103-b914-a2e12336257d.jpeg",
+//   },
+//   {
+//     id: 6,
+//     title: "Makeup",
+//     category: "Bridal Hair",
+//     image: "/images/c57b818b-d436-40b0-b509-07afc8e97b64.jpeg",
+//   },
+// ];
 
 const Portfolio = () => {
   const [activeCategory, setActiveCategory] = useState("All");
@@ -114,6 +153,8 @@ const Portfolio = () => {
           </Button>
         </div>
       </div>
+
+      
     </section>
   );
 };
