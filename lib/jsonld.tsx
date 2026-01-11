@@ -18,7 +18,7 @@ export const JsonLdSchema = () => {
               "url": "https://classymonae.beauty",
               "logo": {
                 "@type": "ImageObject",
-                "url": "https://classymonae.beauty/images/logo.png",
+                "url": "https://classymonae.beauty//images/ec5f20ac-7d96-406c-90a0-9f514b5e6aa5.jpeg",
                 "width": 80,
                 "height": 112
               },

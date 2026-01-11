@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     url: "https://classymonae.beauty",
     images: [
       {
-        url: 'https://classymonae.beauty/images/logo.png',
+        url: '/images/ec5f20ac-7d96-406c-90a0-9f514b5e6aa5.jpeg',
         width: 1200,
         height: 630,
         alt: 'Classy Monaè Beauty Services',
@@ -44,13 +44,13 @@ export const metadata: Metadata = {
     title: 'Classy Monaè Beauty - Bridal Makeup & Hair Services',
     description: 'Luxury bridal makeup, hair styling, and party glam in Texas. Book your appointment today!',
     creator: '@beautybyclassymonae',
-    images: ['https://classymonae.beauty/images/logo.png'],
+    images: ['/images/ec5f20ac-7d96-406c-90a0-9f514b5e6aa5.jpeg'],
   },
   viewport: 'width=device-width, initial-scale=1',
   icons: {
-    icon: '/images/logo.png',
-    apple: '/images/logo.png', 
-    shortcut: '/images/logo.png', 
+    icon: '/logo.png',
+    apple: '/logo.png', 
+    shortcut: '/logo.png', 
   },
   robots: 'index, follow',
   themeColor: '#FFFFFF',
