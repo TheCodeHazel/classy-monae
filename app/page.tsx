@@ -2,8 +2,8 @@ import HomePage from "@/components/HomePage";
 import Image from "next/image";
 
 import type { Metadata } from 'next'
-
-export const metadata: Metadata = {
+export metadata:Metadata = {title:"Preview Expire"}
+ const _metadata: Metadata = {
   title: 'Classy Monaè Beauty - Bridal Makeup & Hair Services in Texas',
   description: 'Luxury bridal makeup, hair styling, party glam, and consultations in Plano, Dallas, DFW, Austin, Houston & East Texas. Look radiant on your special day!',
   keywords: [
@@ -56,8 +56,44 @@ export const metadata: Metadata = {
   themeColor: '#FFFFFF',
 };
 
-
 export default function Home() {
+  return (
+   <div className="min-h-screen bg-white flex items-center justify-center">
+
+      <div className="relative w-[360px] bg-black text-white rounded-2xl shadow-2xl p-8 text-center transition hover:-translate-y-1 hover:shadow-[0_20px_60px_rgba(0,0,0,0.4)]">
+ 
+
+        <h3 className="mt-6 text-xl font-semibold tracking-wide">
+          Classy Monae landing page preview is expire
+        </h3>
+
+        <a
+          href="https://codehazel.com/#contact"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-8 px-6 py-2.5 bg-white text-black text-sm font-medium rounded-lg transition hover:bg-gray-200"
+        >
+          Contact
+        </a>
+
+        <div className="mt-10 pt-5 border-t border-white/10 text-xs text-gray-400">
+          Developed by{" "}
+          <a
+            href="https://codehazel.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:underline"
+          >
+            CodeHazel
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  );
+}
+function Homes() {
   return (
     <HomePage/>
   );
