@@ -2,9 +2,9 @@ import HomePage from "@/components/HomePage";
 import Image from "next/image";
 
 import type { Metadata } from 'next'
-export metadata:Metadata = {title:"Preview Expire"}
- const _metadata: Metadata = {
-  title: 'Classy Monaè Beauty - Bridal Makeup & Hair Services in Texas',
+//Classy Monaè Beauty - Bridal Makeup & Hair Services in Texas
+ const metadata: Metadata = {
+  title: 'Preview Expire ',
   description: 'Luxury bridal makeup, hair styling, party glam, and consultations in Plano, Dallas, DFW, Austin, Houston & East Texas. Look radiant on your special day!',
   keywords: [
     "Bridal Makeup Texas",
