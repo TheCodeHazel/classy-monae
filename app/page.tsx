@@ -64,7 +64,7 @@ export default function Home() {
  
 
         <h3 className="mt-6 text-xl font-semibold tracking-wide">
-          Classy Monae landing page preview is expire
+          Preview Expired
         </h3>
 
         <a
